@@ -22,10 +22,10 @@
             <blockquote>
                 <h2>Young Hero</h2>
             </blockquote>
-            <!-- Título y enlace -->
+            <!-- Subtítulo y enlace -->
             <h3><a href="aquiles.html" class="custom-link">Aquiles</a></h3>
             
-            <!-- Contenedor para la imagen y la infobox -->
+            <!-- Contenedor para la imagen de Aquiles y el cuadro -->
             <div class="image-infobox-container">
                 <img src="images/photo3aquiles.jpg" alt="Imagen de Aquiles" class="aquiles-image">
                 <div class="infobox">
@@ -71,7 +71,7 @@
             </blockquote>
         </div>
         
-        <!-- Sección de la galería -->
+        <!-- Galería -->
         <div id="gallery" class="content-section" style="display: none;">
             <h2>Galería</h2>
             <p>Contenido de la galería.</p>
@@ -82,12 +82,10 @@
     </footer>
     <script>
         function showSection(sectionId) {
-            // Ocultar todas las secciones
             var sections = document.querySelectorAll('.content-section');
             sections.forEach(function(section) {
                 section.style.display = 'none';
             });
-            // Mostrar la sección seleccionada
             document.getElementById(sectionId).style.display = 'block';
         }
     </script>
