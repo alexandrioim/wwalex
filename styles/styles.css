@@ -15,7 +15,7 @@ body {
 
 /* Encabezado */
 header {
-    background-image: url('../images/photo1'); /* Imagen de fondo */
+    background-image: url('../images/photo1.jpg'); /* Ruta correcta de la imagen */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -56,6 +56,8 @@ nav ul li a {
 .custom-link {
     color: black; /* Cambia el color del enlace a negro */
     text-decoration: none; /* Elimina el subrayado */
+    margin-bottom: 1.5rem; /* Añade espacio inferior para separarlo de la imagen */
+    display: inline-block; /* Permite aplicar márgenes verticales */
 }
 
 .custom-link:hover {
@@ -72,7 +74,7 @@ main {
 .image-infobox-container {
     display: flex;
     align-items: flex-start;
-    gap: 2rem; /* Añade más espacio entre la imagen y el cuadro */
+    gap: 3rem; /* Aumenta el espacio entre la imagen y el cuadro */
     margin-bottom: 2rem;
 }
 
