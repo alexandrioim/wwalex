@@ -42,7 +42,7 @@ main {
     padding: 2rem;
 }
 blockquote {
-    font-size: 0.5rem; /* Tamaño de fuente más grande para hacer el texto más llamativo */
+    font-size: 1rem; /* Tamaño de fuente más grande para hacer el texto más llamativo */
     font-style: italic; /* Estilo cursiva para las quotes */
     color: #333; /* Color del texto */
     border-left: 5px solid #888; /* Barra vertical para resaltar la quote */
