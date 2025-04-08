@@ -1,11 +1,15 @@
-html, body {
+html {
     height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
@@ -62,11 +66,10 @@ footer {
     text-align: center;
     padding: 1rem;
     width: 100%;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
-    height: 3rem;  /* Ajusta la altura del footer */
 }
 
 .youtube-playlist {
