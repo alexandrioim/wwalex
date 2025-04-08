@@ -41,6 +41,6 @@ footer {
     width: 100%;
 }
 .imagen-pequena {
-    width: 100px; /* Ancho fijo de 200 pixeles */
+    width: 100px; /* Ancho fijo de 50 pixeles */
     height: auto; /* Mantiene la proporción de la imagen */
 }
