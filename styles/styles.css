@@ -15,7 +15,7 @@ body {
 
 /* Encabezado */
 header {
-    background-image: url('../images/photo1.jpg'); /* Ruta correcta de la imagen */
+    background-image: url('../images/photo1'); /* Ruta correcta de la imagen */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
