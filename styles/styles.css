@@ -64,6 +64,38 @@ main {
     padding: 2rem;
 }
 
+.infobox {
+    width: 300px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 0 auto 2rem auto;
+}
+
+.infobox-title {
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #e9e9e9;
+    padding: 5px;
+}
+
+.infobox-image {
+    text-align: center;
+    padding: 10px;
+}
+
+.infobox img {
+    max-width: 100%;
+    height: auto;
+}
+
+.infobox th,
+.infobox td {
+    padding: 5px;
+    vertical-align: top;
+    text-align: left;
+}
+
 blockquote {
     font-size: 1rem; /* Tamaño de fuente más grande para hacer el texto más llamativo */
     font-style: italic; /* Estilo cursiva para las quotes */
@@ -87,6 +119,11 @@ footer {
     height: auto; /* Ajusta la altura del footer automáticamente según el contenido */
 }
 
+.youtube-playlist {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
 .youtube-playlist {
     display: flex;
     justify-content: center;
