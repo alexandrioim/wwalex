@@ -1,1 +1,69 @@
-
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alejandro</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <h1>alejandro</h1>
+        <h2>sitio apreciativo</h2> 
+        <nav>
+            <ul>
+                <li><a href="index.html">inicio</a></li>
+                <li><a href="about.html">galeria</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <blockquote>
+            <h2>young hero</h2>
+        </blockquote>
+        <div class="infobox">
+            <table>
+                <tr>
+                    <td colspan="2" class="infobox-image">
+                </tr>
+                <tr>
+                    <th>Nombre completo</th>
+                    <td>Alejandro III de Macedonia</td>
+                </tr>
+                <th>Título</th>
+                    <td>Magno</td>
+                <tr>
+                    <th>Ocupación</th>
+                    <td>Rey de Macedonia, Hegemón de Grecia, Faraón de Egipto, Rey de Media y Persia</td>
+                </tr>
+                <tr>
+                    <th>Edad</th>
+                    <td>32</td>
+                </tr>
+                <tr>
+                    <th>Lugar de nacimiento</th>
+                    <td>Pela</td>
+                </tr>
+                <tr>
+                    <th>Educación</th>
+                    <td>Aristóteles</td>
+                </tr>
+                <tr>
+                    <th>Residencia</th>
+                    <td>Desconocida</td>
+                </tr>
+            </table>
+        </div>
+        <div class="youtube-playlist">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL7vGfN5jC8GaXoIeMdM45ChTPqMyM_LTN" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <blockquote>
+            <p>Remember that these are living breathing, fresh and blood human beings, don't turn them into archetypes. By Adrian Goldsworthy.</p>
+        </blockquote>
+    </main>
+    <footer>
+        <p>&copy; by ada</p>
+    </footer>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
