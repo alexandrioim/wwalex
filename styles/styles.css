@@ -27,9 +27,13 @@ header {
     align-items: center;
 }
 
+header h1 {
+    margin: 0 0 0.2rem 0; /* Reduce el margen inferior del título */
+}
+
 header h2 {
-    margin: 1rem 0 1rem 0; /* Reduce el margen superior para acercar el subtítulo al título */
-    font-size: 1.2rem; /* Aumenta el tamaño de la fuente del subtítulo */
+    margin: 0; /* Elimina el margen del subtítulo para acercarlo al título */
+    font-size: 1rem; /* Ajusta el tamaño de la fuente del subtítulo */
     color: white; /* Asegura que el color del subtítulo sea blanco */
 }
 
@@ -79,6 +83,11 @@ footer {
     height: auto; /* Ajusta la altura del footer automáticamente según el contenido */
 }
 
+.youtube-playlist {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
 .youtube-playlist {
     display: flex;
     justify-content: center;
