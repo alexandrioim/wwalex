@@ -64,12 +64,19 @@ footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 1rem;
+    padding: 0.5rem; /* Reduce el padding para hacer el footer más delgado */
     width: 100%;
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
+    height: 2rem; /* Ajusta la altura del footer */
+}
+
+.youtube-playlist {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
 }
 
 .youtube-playlist {
