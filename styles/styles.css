@@ -40,3 +40,7 @@ footer {
     bottom: 0;
     width: 100%;
 }
+.imagen-pequena {
+    width: 200px; /* Ancho relativo al 50% del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
