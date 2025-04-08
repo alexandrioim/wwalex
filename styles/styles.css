@@ -27,6 +27,12 @@ header {
     align-items: center;
 }
 
+header h2 {
+    margin: 0; /* Elimina el margen para que el subtítulo esté más cerca del título */
+    font-size: 1.5rem; /* Ajusta el tamaño de la fuente del subtítulo */
+    color: white; /* Asegura que el color del subtítulo sea blanco */
+}
+
 nav ul {
     list-style: none;
     padding: 0;
