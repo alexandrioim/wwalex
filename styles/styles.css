@@ -32,9 +32,13 @@ header h1 {
 }
 
 header h2 {
-    margin: 0; /* Elimina el margen del subtítulo para acercarlo al título */
+    margin: 0.2rem 0 1.5rem 0; /* Ajusta el margen para acercar el subtítulo al título y alejarlo de los enlaces */
     font-size: 1rem; /* Ajusta el tamaño de la fuente del subtítulo */
     color: white; /* Asegura que el color del subtítulo sea blanco */
+}
+
+nav {
+    margin-top: 0.5rem; /* Añade margen superior a la navegación para alejarla del subtítulo */
 }
 
 nav ul {
@@ -83,11 +87,6 @@ footer {
     height: auto; /* Ajusta la altura del footer automáticamente según el contenido */
 }
 
-.youtube-playlist {
-    display: flex;
-    justify-content: center;
-    margin: 2rem 0;
-}
 .youtube-playlist {
     display: flex;
     justify-content: center;
