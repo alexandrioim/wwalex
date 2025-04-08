@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-image: url('../images/photo3aquiles'); /* Ruta a tu imagen de fondo */
+    background-image: url('../images/photo3aquiles.jpg'); /* Ruta corregida a tu imagen de fondo */
     background-size: cover; /* Ajusta la imagen para cubrir todo el header */
     background-position: center; /* Centra la imagen */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
@@ -37,6 +37,7 @@ header h2 {
     color: white; /* Asegura que el color del subtítulo sea blanco */
 }
 
+/* Estilo del menú de navegación */
 nav {
     margin-top: 0.5rem; /* Añade margen superior a la navegación para alejarla del subtítulo */
 }
@@ -59,12 +60,23 @@ nav ul li a {
     text-decoration: none;
 }
 
+/* Estilo para enlaces normales */
+a {
+    color: black;
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+}
+
+a:hover {
+    text-decoration: underline; /* Agrega subrayado al pasar el cursor */
+}
+
 main {
     flex: 1; /* Permite que el main ocupe el espacio disponible */
     padding: 2rem;
     position: relative; /* Asegura que los elementos flotantes se posicionen correctamente */
 }
 
+/* Estilo de la infobox */
 .infobox {
     width: 300px;
     border: 1px solid #ccc;
@@ -98,6 +110,7 @@ main {
     text-align: left;
 }
 
+/* Estilo para citas (blockquote) */
 blockquote {
     font-size: 1rem; /* Tamaño de fuente más grande para hacer el texto más llamativo */
     font-style: italic; /* Estilo cursiva para las quotes */
@@ -108,6 +121,7 @@ blockquote {
     background-color: #f9f9f9; /* Fondo claro para resaltar la quote */
 }
 
+/* Estilo del footer */
 footer {
     background-color: #333;
     color: white;
@@ -121,8 +135,17 @@ footer {
     height: auto; /* Ajusta la altura del footer automáticamente según el contenido */
 }
 
+/* Estilo para videos de YouTube */
 .youtube-playlist {
     display: flex;
     justify-content: center;
     margin: 2rem 0;
+}
+
+/* Estilo para imágenes */
+img {
+    display: block; /* Asegura que la imagen no tenga espacio extra alrededor */
+    margin: 1rem auto; /* Centra la imagen con margen */
+    max-width: 100%; /* Asegura que la imagen no sea más ancha que su contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
 }
