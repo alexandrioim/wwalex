@@ -3,6 +3,9 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
@@ -39,6 +42,7 @@ nav ul li a {
 }
 
 main {
+    flex: 1; /* Permite que el main ocupe el espacio disponible */
     padding: 2rem;
 }
 blockquote {
@@ -55,7 +59,10 @@ footer {
     color: white;
     text-align: center;
     padding: 1rem;
-    position: relative;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
     width: 100%;
     margin-top: auto; /* Asegura que el footer se mantenga en la parte inferior de la página */
 }
