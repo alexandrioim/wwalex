@@ -1,15 +1,15 @@
-body {
-    font-family: Arial, sans-serif;
+html, body {
+    height: 100%;
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
 }
 
 header {
-    background-image: url('../images/photo1'); /* images/photo 1*/
+    background-image: url('../images/photo1'); /* Ruta a tu imagen de fondo */
     background-size: cover; /* Ajusta la imagen para cubrir todo el header */
     background-position: center; /* Centra la imagen */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
@@ -45,6 +45,7 @@ main {
     flex: 1; /* Permite que el main ocupe el espacio disponible */
     padding: 2rem;
 }
+
 blockquote {
     font-size: 1rem; /* Tamaño de fuente más grande para hacer el texto más llamativo */
     font-style: italic; /* Estilo cursiva para las quotes */
@@ -54,17 +55,17 @@ blockquote {
     padding-left: 1rem; /* Espaciado interno para la quote */
     background-color: #f9f9f9; /* Fondo claro para resaltar la quote */
 }
+
 footer {
     background-color: #333;
     color: white;
     text-align: center;
     padding: 1rem;
-    position: absolute;
+    width: 100%;
+    position: relative;
     bottom: 0;
     left: 0;
     right: 0;
-    width: 100%;
-    margin-top: auto; /* Asegura que el footer se mantenga en la parte inferior de la página */
 }
 
 .youtube-playlist {
