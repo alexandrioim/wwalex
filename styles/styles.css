@@ -52,6 +52,16 @@ nav ul li a {
     text-decoration: none;
 }
 
+/* Estilo para enlaces */
+.custom-link {
+    color: black; /* Cambia el color del enlace a negro */
+    text-decoration: none; /* Elimina el subrayado */
+}
+
+.custom-link:hover {
+    text-decoration: underline; /* Subrayado al pasar el cursor */
+}
+
 /* Contenido principal */
 main {
     flex: 1;
@@ -62,7 +72,7 @@ main {
 .image-infobox-container {
     display: flex;
     align-items: flex-start;
-    gap: 1rem;
+    gap: 2rem; /* Añade más espacio entre la imagen y el cuadro */
     margin-bottom: 2rem;
 }
 
@@ -106,9 +116,4 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-}
-    display: block;
-    margin: 1rem auto;
-    max-width: 100%;
-    height: auto;
 }
