@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-image: url('../images/photo1'); /* Ruta corregida a la imagen de fondo original */
+    background-image: url('../images/photo1.jpg'); /* Ruta de la imagen de fondo */
     background-size: cover; /* Ajusta la imagen para cubrir todo el header */
     background-position: center; /* Centra la imagen */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
@@ -25,7 +25,6 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
 }
 
 header h1 {
@@ -77,41 +76,28 @@ main {
     position: relative; /* Asegura que los elementos flotantes se posicionen correctamente */
 }
 
-/* Estilo de la infobox */
+/* Contenedor para la imagen y el cuadro (infobox) */
+.image-infobox-container {
+    display: flex; /* Coloca los elementos en una fila */
+    align-items: flex-start; /* Alinea la infobox en la parte superior de la imagen */
+    gap: 1rem; /* Espaciado entre la imagen y el cuadro */
+    margin-bottom: 2rem; /* Espaciado inferior */
+}
+
+.image-infobox-container img {
+    max-width: 300px; /* Ajusta el tamaño máximo de la imagen */
+    height: auto; /* Mantén la proporción de la imagen */
+}
+
 .infobox {
     width: 300px;
     border: 1px solid #ccc;
     background-color: #f9f9f9;
     padding: 10px;
-    margin: 0 0 2rem auto; /* Alinea el cuadro a la derecha */
-    float: right; /* Hace que el cuadro flote a la derecha */
+    margin: 0; /* Elimina el margen superior e inferior */
+    float: none; /* Asegúrate de que no flote */
 }
 
-.infobox-title {
-    font-size: 1.5rem;
-    text-align: center;
-    background-color: #e9e9e9;
-    padding: 5px;
-}
-
-.infobox-image {
-    text-align: center;
-    padding: 10px;
-}
-
-.infobox img {
-    max-width: 100%;
-    height: auto;
-}
-
-.infobox th,
-.infobox td {
-    padding: 5px;
-    vertical-align: top;
-    text-align: left;
-}
-
-/* Estilo para citas (blockquote) */
 blockquote {
     font-size: 1rem; /* Tamaño de fuente más grande para hacer el texto más llamativo */
     font-style: italic; /* Estilo cursiva para las quotes */
@@ -122,7 +108,6 @@ blockquote {
     background-color: #f9f9f9; /* Fondo claro para resaltar la quote */
 }
 
-/* Estilo del footer */
 footer {
     background-color: #333;
     color: white;
@@ -136,7 +121,6 @@ footer {
     height: auto; /* Ajusta la altura del footer automáticamente según el contenido */
 }
 
-/* Estilo para videos de YouTube */
 .youtube-playlist {
     display: flex;
     justify-content: center;
@@ -145,6 +129,11 @@ footer {
 
 /* Estilo para imágenes */
 img {
+    display: block; /* Asegura que la imagen no tenga espacio extra alrededor */
+    margin: 1rem auto; /* Centra la imagen con margen */
+    max-width: 100%; /* Asegura que la imagen no sea más ancha que su contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
     display: block; /* Asegura que la imagen no tenga espacio extra alrededor */
     margin: 1rem auto; /* Centra la imagen con margen */
     max-width: 100%; /* Asegura que la imagen no sea más ancha que su contenedor */
