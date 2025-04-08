@@ -8,28 +8,28 @@
 </head>
 <body>
     <header>
-        <h1>alejandro</h1>
-        <h2>sitio apreciativo</h2>
+        <h1>Alejandro</h1>
+        <h2>Sitio apreciativo</h2>
         <nav>
             <ul>
-                <li><a href="#" onclick="showSection('home')">inicio</a></li>
-                <li><a href="#" onclick="showSection('gallery')">galeria</a></li>
+                <li><a href="#" onclick="showSection('home')">Inicio</a></li>
+                <li><a href="#" onclick="showSection('gallery')">Galería</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <div id="home" class="content-section">
             <blockquote>
-                <h2>young hero</h2>
+                <h2>Young Hero</h2>
             </blockquote>
+            <!-- Título y enlace -->
             <h3><a href="aquiles.html" class="custom-link">Aquiles</a></h3>
+            
+            <!-- Contenedor para la imagen y la infobox -->
             <div class="image-infobox-container">
-                <img src="images/photo3aquiles.jpg" alt="Imagen de Aquiles" style="width: 300px; height: auto;">
+                <img src="images/photo3aquiles.jpg" alt="Imagen de Aquiles" class="aquiles-image">
                 <div class="infobox">
                     <table>
-                        <tr>
-                            <td colspan="2" class="infobox-image"></td>
-                        </tr>
                         <tr>
                             <th>Nombre completo</th>
                             <td>Alejandro III de Macedonia</td>
@@ -61,13 +61,17 @@
                     </table>
                 </div>
             </div>
+            
+            <!-- Playlist de YouTube -->
             <div class="youtube-playlist">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL7vGfN5jC8GaXoIeMdM45ChTPqMyM_LTN" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <blockquote>
-                <p>Remember that these are living breathing, fresh and blood human beings, don't turn them into archetypes. By Adrian Goldsworthy.</p>
+                <p>Remember that these are living, breathing, fresh and blood human beings. Don't turn them into archetypes. By Adrian Goldsworthy.</p>
             </blockquote>
         </div>
+        
+        <!-- Sección de la galería -->
         <div id="gallery" class="content-section" style="display: none;">
             <h2>Galería</h2>
             <p>Contenido de la galería.</p>
@@ -78,10 +82,12 @@
     </footer>
     <script>
         function showSection(sectionId) {
+            // Ocultar todas las secciones
             var sections = document.querySelectorAll('.content-section');
             sections.forEach(function(section) {
                 section.style.display = 'none';
             });
+            // Mostrar la sección seleccionada
             document.getElementById(sectionId).style.display = 'block';
         }
     </script>
