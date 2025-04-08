@@ -28,8 +28,8 @@ header {
 }
 
 header h2 {
-    margin: 0.5rem 0 1.5rem 0; /* Ajusta el margen para acercar el subtítulo al título y alejarlo de los enlaces */
-    font-size: 1rem; /* Reduce el tamaño de la fuente del subtítulo */
+    margin: 0.2rem 0 1.5rem 0; /* Reduce el margen superior para acercar el subtítulo al título */
+    font-size: 0.8rem; /* Reduce el tamaño de la fuente del subtítulo */
     color: white; /* Asegura que el color del subtítulo sea blanco */
 }
 
