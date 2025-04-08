@@ -23,6 +23,9 @@ header {
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0; /* Elimina el margen para centrar correctamente */
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li {
