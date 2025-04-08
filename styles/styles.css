@@ -55,19 +55,9 @@ footer {
     color: white;
     text-align: center;
     padding: 1rem;
-    position: relative; /* Cambiado de fixed a relative para permitir que el footer se posicione correctamente */
-    bottom: 0;
+    position: relative;
     width: 100%;
     margin-top: auto; /* Asegura que el footer se mantenga en la parte inferior de la página */
-}
-.footer-fixed {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-.footer-relative {
-    position: relative;
 }
 
 .youtube-playlist {
