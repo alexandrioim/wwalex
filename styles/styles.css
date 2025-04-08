@@ -41,7 +41,15 @@ nav ul li a {
 main {
     padding: 2rem;
 }
-
+blockquote {
+    font-size: 1.5rem; /* Tamaño de fuente más grande para hacer el texto más llamativo */
+    font-style: italic; /* Estilo cursiva para las quotes */
+    color: #333; /* Color del texto */
+    border-left: 5px solid #888; /* Barra vertical para resaltar la quote */
+    margin: 1.5rem 0; /* Márgenes alrededor de la quote */
+    padding-left: 1rem; /* Espaciado interno para la quote */
+    background-color: #f9f9f9; /* Fondo claro para resaltar la quote */
+}
 footer {
     background-color: #333;
     color: white;
