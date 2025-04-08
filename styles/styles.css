@@ -13,7 +13,7 @@ header {
     color: white; /* Cambia el color del texto a blanco para mayor contraste */
     padding: 2rem 1rem; /* Ajusta el padding para hacer el header más ancho */
     text-align: center;
-    height: 300px; /* Ajusta la altura del header según tus necesidades */
+    height: 200px; /* Ajusta la altura del header según tus necesidades */
 }
 
 nav ul {
