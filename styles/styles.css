@@ -13,14 +13,14 @@ body {
 }
 
 header {
-    background-image: url('../images/photo1.jpg'); /* Ruta de la imagen de fondo */
-    background-size: cover; /* Ajusta la imagen para cubrir todo el header */
-    background-position: center; /* Centra la imagen */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
-    color: white; /* Cambia el color del texto a blanco para mayor contraste */
-    padding: 2rem 1rem; /* Ajusta el padding para hacer el header más ancho */
+    background-image: url('../images/photo1.jpg'); /* Ruta corregida */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 2rem 1rem;
     text-align: center;
-    height: 200px; /* Ajusta la altura del header según tus necesidades */
+    height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,24 +28,23 @@ header {
 }
 
 header h1 {
-    margin: 0 0 0.2rem 0; /* Reduce el margen inferior del título */
+    margin: 0 0 0.2rem 0;
 }
 
 header h2 {
-    margin: 0.2rem 0 1.5rem 0; /* Ajusta el margen para acercar el subtítulo al título y alejarlo de los enlaces */
-    font-size: 1rem; /* Ajusta el tamaño de la fuente del subtítulo */
-    color: white; /* Asegura que el color del subtítulo sea blanco */
+    margin: 0.2rem 0 1.5rem 0;
+    font-size: 1rem;
+    color: white;
 }
 
-/* Estilo del menú de navegación */
 nav {
-    margin-top: 0.5rem; /* Añade margen superior a la navegación para alejarla del subtítulo */
+    margin-top: 0.5rem;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
-    margin: 0; /* Elimina el margen para centrar correctamente */
+    margin: 0;
     display: flex;
     justify-content: center;
 }
@@ -60,33 +59,16 @@ nav ul li a {
     text-decoration: none;
 }
 
-/* Estilo para enlaces normales */
-a {
-    color: black;
-    text-decoration: none; /* Elimina el subrayado de los enlaces */
-}
-
-a:hover {
-    text-decoration: underline; /* Agrega subrayado al pasar el cursor */
-}
-
-main {
-    flex: 1; /* Permite que el main ocupe el espacio disponible */
-    padding: 2rem;
-    position: relative; /* Asegura que los elementos flotantes se posicionen correctamente */
-}
-
-/* Contenedor para la imagen y el cuadro (infobox) */
 .image-infobox-container {
-    display: flex; /* Coloca los elementos en una fila */
-    align-items: flex-start; /* Alinea la infobox en la parte superior de la imagen */
-    gap: 1rem; /* Espaciado entre la imagen y el cuadro */
-    margin-bottom: 2rem; /* Espaciado inferior */
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 2rem;
 }
 
 .image-infobox-container img {
-    max-width: 300px; /* Ajusta el tamaño máximo de la imagen */
-    height: auto; /* Mantén la proporción de la imagen */
+    max-width: 300px;
+    height: auto;
 }
 
 .infobox {
@@ -94,31 +76,30 @@ main {
     border: 1px solid #ccc;
     background-color: #f9f9f9;
     padding: 10px;
-    margin: 0; /* Elimina el margen superior e inferior */
-    float: none; /* Asegúrate de que no flote */
+    margin: 0;
+    float: none;
 }
 
 blockquote {
-    font-size: 1rem; /* Tamaño de fuente más grande para hacer el texto más llamativo */
-    font-style: italic; /* Estilo cursiva para las quotes */
-    color: #333; /* Color del texto */
-    border-left: 5px solid #888; /* Barra vertical para resaltar la quote */
-    margin: 1.5rem 0; /* Márgenes alrededor de la quote */
-    padding-left: 1rem; /* Espaciado interno para la quote */
-    background-color: #f9f9f9; /* Fondo claro para resaltar la quote */
+    font-size: 1rem;
+    font-style: italic;
+    color: #333;
+    border-left: 5px solid #888;
+    margin: 1.5rem 0;
+    padding-left: 1rem;
+    background-color: #f9f9f9;
 }
 
 footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 0.1rem; /* Reduce el padding para hacer el footer más delgado */
+    padding: 0.1rem;
     width: 100%;
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
-    height: auto; /* Ajusta la altura del footer automáticamente según el contenido */
 }
 
 .youtube-playlist {
@@ -127,15 +108,9 @@ footer {
     margin: 2rem 0;
 }
 
-/* Estilo para imágenes */
 img {
-    display: block; /* Asegura que la imagen no tenga espacio extra alrededor */
-    margin: 1rem auto; /* Centra la imagen con margen */
-    max-width: 100%; /* Asegura que la imagen no sea más ancha que su contenedor */
-    height: auto; /* Mantiene la proporción de la imagen */
-}
-    display: block; /* Asegura que la imagen no tenga espacio extra alrededor */
-    margin: 1rem auto; /* Centra la imagen con margen */
-    max-width: 100%; /* Asegura que la imagen no sea más ancha que su contenedor */
-    height: auto; /* Mantiene la proporción de la imagen */
+    display: block;
+    margin: 1rem auto;
+    max-width: 100%;
+    height: auto;
 }
